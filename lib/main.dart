@@ -68,6 +68,7 @@ class _MusicAppState extends State<MusicApp> {
     });
   }
 
+// releases the memory allocated to the existing variables of the state.
   @override
   void dispose() {
     audioPlayer.dispose();
